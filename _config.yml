@@ -16,7 +16,8 @@ author:
 # Build settings
 markdown:       kramdown
 include:
-  - _pages
+  - _pages  
+  - "_img"
 
 # Assets
 sass:
