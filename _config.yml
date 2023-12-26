@@ -17,7 +17,6 @@ author:
 markdown:       kramdown
 include:
   - _pages  
-  - "_img"
 
 # Assets
 sass:
@@ -37,6 +36,7 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
+# permalink:        /blog/:title/
 paginate:       5
 
 # Excludes
