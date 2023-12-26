@@ -1,7 +1,7 @@
 # Site settings
 title:          eses
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/test"
+
 url:            "https://eses-corner.github.io/test/"
 
 # Google Analytics
