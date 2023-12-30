@@ -3,6 +3,50 @@
 ---
 
 @import 'tale';
+
+@font-face {
+	font-family: "goodmonday";
+	src: url("../assets/fonts/GoodMondays-Regular.ttf");
+}
+
 html, body {
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
+    font-family: "goodmonday", sans-serif;
+}
+
+.container-image-first {
+    display: flex;
+    // width: max-content;
+    width: auto;
+  }
+  
+.col {
+    flex: 1;
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: red;
+    // height: 400px;
+    width: max-content;
+    padding: 2%; /* Add padding to the frist column */
+}
+
+.col img {
+    max-width: 100%; /* Make sure the image doesn't exceed the column width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any extra space beneath the image */
+  }
+
+.col:first-child {
+    flex: 2; /* Make the first column wider */
+}
+
+.col:nth-child(2) {
+    // background-color: yellow;
+
+    align-self: flex-end;
+    // align-content: center;
+    text-align:left;
+    padding: 2%; /* Add padding to the second column */
 }
