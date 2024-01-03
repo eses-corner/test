@@ -9,14 +9,15 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         esther
+  url:          
+  email:        
 
 # Build settings
 markdown:       kramdown
 include:
   - _pages  
+  - _photos  
 
 # Assets
 sass:
@@ -50,4 +51,6 @@ disqus:         jekyll-tale
 remote_theme: chesterhow/tale
 
 
-
+collections:
+  photos:
+    output: true
