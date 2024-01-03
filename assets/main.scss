@@ -14,6 +14,12 @@ html, body {
     font-family: "goodmonday", sans-serif;
 }
 
+
+
+
+
+/* CONTAINER-FIRST-WITH-TITLE */
+
 .container-image-first {
     display: flex;
     // width: max-content;
@@ -43,6 +49,7 @@ html, body {
 }
 
 .col:nth-child(2) {
+    display: flex;
     // background-color: yellow;
 
     align-self: flex-end;
@@ -50,3 +57,46 @@ html, body {
     text-align:left;
     padding: 2%; /* Add padding to the second column */
 }
+
+.col:nth-child(2) h2 {
+    margin-top: 0; /* Remove the top margin */
+    align-self: flex-start; /* Align at the top */
+    // margin-bottom: 40px; /* Adjust as needed for spacing between header and content */
+    font-family: inherit; /* Use the font of the whole body */
+  }
+
+/* CONTAINER-LEFT and RIGHT*/
+
+.side-by-side-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .left-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .left-content h2 {
+    color: #333;
+  }
+
+  .right-content {
+    flex: 1;
+    text-align: center;
+  }
+
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+/* REMOVE BULLET */
+ul {
+    list-style: none;
+  }
+
+  
